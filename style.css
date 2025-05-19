@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(to right, #fcaf3b, #3e04c4);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  background: #00d9ff;
+  background: linear-gradient(to right, #fdf905, #d007f8);
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #a404c4, #f1da08);
+}
+
+#wynik {
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+.kalkulator-row {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.kolumna {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  width: 300px;
+  text-align: center;
+}
+
+.kolumna h2 {
+  margin-bottom: 20px;
+}
+

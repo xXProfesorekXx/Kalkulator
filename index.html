@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator debila</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Kalkulator dla totalnego dzbana</h1>
+
+  <input id="liczba1" type="number" placeholder="Wpisz pierwszą liczbę">
+  <input id="liczba2" type="number" placeholder="Wpisz drugą liczbę">
+  <input id="liczba3" type="number" placeholder="Wpisz trzecią liczbę">
+
+  <button onclick="policz()">OBLICZ TO GÓWNO</button>
+  <button onclick="odejmij()">ODEJMIJ TO SZYTE GÓWNO</button>
+
+  <p id="wynik"></p>
+
+  <script src="script.js"></script>
+
+  <div class="kalkulator-row">
+  <!-- MNOŻENIE -->
+  <div class="kolumna">
+    <h2>Mnożenie</h2>
+    <input id="mno1" type="number" placeholder="Liczba A">
+    <input id="mno2" type="number" placeholder="Liczba B">
+    <button onclick="mnoz()">MNOŻYMY TO GÓWNO</button>
+    <p id="wynikMnoz"></p>
+  </div>
+
+  <!-- DZIELENIE -->
+  <div class="kolumna">
+    <h2>Dzielenie</h2>
+    <input id="dziel1" type="number" placeholder="Dzielna">
+    <input id="dziel2" type="number" placeholder="Dzielnik">
+    <button onclick="dziel()">DZIELIMY JAK BOGOWIE</button>
+    <p id="wynikDziel"></p>
+  </div>
+</div>
+
+
+
+<button onclick="wyczyscWszystko()">WYCZYŚĆ TO GÓWNO</button>
+
+</body>
+</html>
